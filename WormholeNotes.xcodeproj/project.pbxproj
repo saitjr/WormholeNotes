@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4A500F2988DA0D006514F0 /* WormholeNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A500E2988DA0D006514F0 /* WormholeNotesApp.swift */; };
+		9B4A50112988DA0D006514F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A50102988DA0D006514F0 /* ContentView.swift */; };
+		9B4A50132988DA0E006514F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4A50122988DA0E006514F0 /* Assets.xcassets */; };
+		9B4A50162988DA0E006514F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4A50152988DA0E006514F0 /* Preview Assets.xcassets */; };
+		9B4A50212988DA0E006514F0 /* WormholeNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A50202988DA0E006514F0 /* WormholeNotesTests.swift */; };
+		9B4A502B2988DA0E006514F0 /* WormholeNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A502A2988DA0E006514F0 /* WormholeNotesUITests.swift */; };
+		9B4A502D2988DA0E006514F0 /* WormholeNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A502C2988DA0E006514F0 /* WormholeNotesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B4A501D2988DA0E006514F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4A50032988DA0D006514F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4A500A2988DA0D006514F0;
+			remoteInfo = WormholeNotes;
+		};
+		9B4A50272988DA0E006514F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B4A50032988DA0D006514F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4A500A2988DA0D006514F0;
+			remoteInfo = WormholeNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B4A500B2988DA0D006514F0 /* WormholeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WormholeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4A500E2988DA0D006514F0 /* WormholeNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesApp.swift; sourceTree = "<group>"; };
+		9B4A50102988DA0D006514F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B4A50122988DA0E006514F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B4A50152988DA0E006514F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B4A50172988DA0E006514F0 /* WormholeNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WormholeNotes.entitlements; sourceTree = "<group>"; };
+		9B4A501C2988DA0E006514F0 /* WormholeNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WormholeNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4A50202988DA0E006514F0 /* WormholeNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesTests.swift; sourceTree = "<group>"; };
+		9B4A50262988DA0E006514F0 /* WormholeNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WormholeNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4A502A2988DA0E006514F0 /* WormholeNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesUITests.swift; sourceTree = "<group>"; };
+		9B4A502C2988DA0E006514F0 /* WormholeNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B4A50082988DA0D006514F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4A50192988DA0E006514F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4A50232988DA0E006514F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B4A50022988DA0D006514F0 = {
+			isa = PBXGroup;
+			children = (
+				9B4A500D2988DA0D006514F0 /* WormholeNotes */,
+				9B4A501F2988DA0E006514F0 /* WormholeNotesTests */,
+				9B4A50292988DA0E006514F0 /* WormholeNotesUITests */,
+				9B4A500C2988DA0D006514F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B4A500C2988DA0D006514F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A500B2988DA0D006514F0 /* WormholeNotes.app */,
+				9B4A501C2988DA0E006514F0 /* WormholeNotesTests.xctest */,
+				9B4A50262988DA0E006514F0 /* WormholeNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B4A500D2988DA0D006514F0 /* WormholeNotes */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A500E2988DA0D006514F0 /* WormholeNotesApp.swift */,
+				9B4A50102988DA0D006514F0 /* ContentView.swift */,
+				9B4A50122988DA0E006514F0 /* Assets.xcassets */,
+				9B4A50172988DA0E006514F0 /* WormholeNotes.entitlements */,
+				9B4A50142988DA0E006514F0 /* Preview Content */,
+			);
+			path = WormholeNotes;
+			sourceTree = "<group>";
+		};
+		9B4A50142988DA0E006514F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A50152988DA0E006514F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B4A501F2988DA0E006514F0 /* WormholeNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A50202988DA0E006514F0 /* WormholeNotesTests.swift */,
+			);
+			path = WormholeNotesTests;
+			sourceTree = "<group>";
+		};
+		9B4A50292988DA0E006514F0 /* WormholeNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A502A2988DA0E006514F0 /* WormholeNotesUITests.swift */,
+				9B4A502C2988DA0E006514F0 /* WormholeNotesUITestsLaunchTests.swift */,
+			);
+			path = WormholeNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B4A500A2988DA0D006514F0 /* WormholeNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4A50302988DA0E006514F0 /* Build configuration list for PBXNativeTarget "WormholeNotes" */;
+			buildPhases = (
+				9B4A50072988DA0D006514F0 /* Sources */,
+				9B4A50082988DA0D006514F0 /* Frameworks */,
+				9B4A50092988DA0D006514F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WormholeNotes;
+			productName = WormholeNotes;
+			productReference = 9B4A500B2988DA0D006514F0 /* WormholeNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B4A501B2988DA0E006514F0 /* WormholeNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4A50332988DA0E006514F0 /* Build configuration list for PBXNativeTarget "WormholeNotesTests" */;
+			buildPhases = (
+				9B4A50182988DA0E006514F0 /* Sources */,
+				9B4A50192988DA0E006514F0 /* Frameworks */,
+				9B4A501A2988DA0E006514F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4A501E2988DA0E006514F0 /* PBXTargetDependency */,
+			);
+			name = WormholeNotesTests;
+			productName = WormholeNotesTests;
+			productReference = 9B4A501C2988DA0E006514F0 /* WormholeNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B4A50252988DA0E006514F0 /* WormholeNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4A50362988DA0E006514F0 /* Build configuration list for PBXNativeTarget "WormholeNotesUITests" */;
+			buildPhases = (
+				9B4A50222988DA0E006514F0 /* Sources */,
+				9B4A50232988DA0E006514F0 /* Frameworks */,
+				9B4A50242988DA0E006514F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4A50282988DA0E006514F0 /* PBXTargetDependency */,
+			);
+			name = WormholeNotesUITests;
+			productName = WormholeNotesUITests;
+			productReference = 9B4A50262988DA0E006514F0 /* WormholeNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B4A50032988DA0D006514F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9B4A500A2988DA0D006514F0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9B4A501B2988DA0E006514F0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9B4A500A2988DA0D006514F0;
+					};
+					9B4A50252988DA0E006514F0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9B4A500A2988DA0D006514F0;
+					};
+				};
+			};
+			buildConfigurationList = 9B4A50062988DA0D006514F0 /* Build configuration list for PBXProject "WormholeNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B4A50022988DA0D006514F0;
+			productRefGroup = 9B4A500C2988DA0D006514F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4A500A2988DA0D006514F0 /* WormholeNotes */,
+				9B4A501B2988DA0E006514F0 /* WormholeNotesTests */,
+				9B4A50252988DA0E006514F0 /* WormholeNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B4A50092988DA0D006514F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4A50162988DA0E006514F0 /* Preview Assets.xcassets in Resources */,
+				9B4A50132988DA0E006514F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4A501A2988DA0E006514F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4A50242988DA0E006514F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B4A50072988DA0D006514F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4A50112988DA0D006514F0 /* ContentView.swift in Sources */,
+				9B4A500F2988DA0D006514F0 /* WormholeNotesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4A50182988DA0E006514F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4A50212988DA0E006514F0 /* WormholeNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4A50222988DA0E006514F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4A502B2988DA0E006514F0 /* WormholeNotesUITests.swift in Sources */,
+				9B4A502D2988DA0E006514F0 /* WormholeNotesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B4A501E2988DA0E006514F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4A500A2988DA0D006514F0 /* WormholeNotes */;
+			targetProxy = 9B4A501D2988DA0E006514F0 /* PBXContainerItemProxy */;
+		};
+		9B4A50282988DA0E006514F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B4A500A2988DA0D006514F0 /* WormholeNotes */;
+			targetProxy = 9B4A50272988DA0E006514F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B4A502E2988DA0E006514F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B4A502F2988DA0E006514F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9B4A50312988DA0E006514F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WormholeNotes/WormholeNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WormholeNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.WormholeNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B4A50322988DA0E006514F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WormholeNotes/WormholeNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WormholeNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.WormholeNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9B4A50342988DA0E006514F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.WormholeNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WormholeNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WormholeNotes";
+			};
+			name = Debug;
+		};
+		9B4A50352988DA0E006514F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.WormholeNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WormholeNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WormholeNotes";
+			};
+			name = Release;
+		};
+		9B4A50372988DA0E006514F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.WormholeNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WormholeNotes;
+			};
+			name = Debug;
+		};
+		9B4A50382988DA0E006514F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EPY6FQ3R94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saitjr.WormholeNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WormholeNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B4A50062988DA0D006514F0 /* Build configuration list for PBXProject "WormholeNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4A502E2988DA0E006514F0 /* Debug */,
+				9B4A502F2988DA0E006514F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4A50302988DA0E006514F0 /* Build configuration list for PBXNativeTarget "WormholeNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4A50312988DA0E006514F0 /* Debug */,
+				9B4A50322988DA0E006514F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4A50332988DA0E006514F0 /* Build configuration list for PBXNativeTarget "WormholeNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4A50342988DA0E006514F0 /* Debug */,
+				9B4A50352988DA0E006514F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4A50362988DA0E006514F0 /* Build configuration list for PBXNativeTarget "WormholeNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4A50372988DA0E006514F0 /* Debug */,
+				9B4A50382988DA0E006514F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B4A50032988DA0D006514F0 /* Project object */;
+}
