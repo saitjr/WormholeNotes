@@ -45,6 +45,7 @@
 		9B4A50262988DA0E006514F0 /* WormholeNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WormholeNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4A502A2988DA0E006514F0 /* WormholeNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesUITests.swift; sourceTree = "<group>"; };
 		9B4A502C2988DA0E006514F0 /* WormholeNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B4A503A2988ECE3006514F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		9B4A500D2988DA0D006514F0 /* WormholeNotes */ = {
 			isa = PBXGroup;
 			children = (
+				9B4A503A2988ECE3006514F0 /* Info.plist */,
 				9B4A500E2988DA0D006514F0 /* WormholeNotesApp.swift */,
 				9B4A50102988DA0D006514F0 /* ContentView.swift */,
 				9B4A50122988DA0E006514F0 /* Assets.xcassets */,
@@ -424,6 +426,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WormholeNotes/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,6 +455,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WormholeNotes/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
