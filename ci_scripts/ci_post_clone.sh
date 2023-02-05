@@ -12,6 +12,6 @@ pwd
 
 ruby -v 
 
-ruby ./ci_scripts/src/hooks/ci_post_clone.rb
+ruby ./src/hooks/ci_post_clone.rb
 
 exit 1
