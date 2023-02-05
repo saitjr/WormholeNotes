@@ -7,3 +7,11 @@
 #  
 
 echo "run ci_post_clone.sh"
+
+pwd
+
+ruby -v 
+
+ruby ./ci_scripts/src/hooks/ci_post_clone.rb
+
+exit 1
