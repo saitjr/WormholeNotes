@@ -11,20 +11,32 @@ module Utils
     def initialize(path)
       self.xcodeporj_path = path
       @xcodeporj_obj = Xcodeproj::Project.open(path)
-      # ap @xcodeporj_obj
     end
     
     def product_name
-      return @xcodeporj_obj['rootObject']
+      return release_build_settings['INFOPLIST_KEY_CFBundleDisplayName']
     end
 
-    def app_build_settings
-      # return @xcodeporj_obj.objects.select { |o| o['isa'] == "com.apple.product-type.application" }
-      # ap @xcodeporj_obj.build_configuration_list.build_configurations#('PRODUCT_BUNDLE_IDENTIFIER')
-      # ap @xcodeporj_obj.build_configuration_list.build_settings('Release')
+    def version
+      return release_build_settings['MARKETING_VERSION']
+    end
 
-      ap @xcodeporj_obj.products
-      return
+    def bundle_id
+      return release_build_settings['PRODUCT_BUNDLE_IDENTIFIER']
+    end
+
+    def info_plist
+      return release_build_settings['INFOPLIST_FILE']
+    end
+
+    def release_build_settings
+      target_obj = @xcodeporj_obj.objects.find { |i| i.is_a?(Xcodeproj::Project::Object::PBXNativeTarget) && i.product_type == 'com.apple.product-type.application' }
+      configuration_list = target_obj.build_configuration_list.build_configurations
+      release_config = configuration_list.find { |c| !c.debug? }
+
+      # ap release_config
+
+      return release_config.build_settings
     end
 
   end
@@ -32,4 +44,4 @@ end
 
 path = '/Users/saitjr/Documents/WormholeNotes/WormholeNotes.xcodeproj'
 obj = Utils::ProjectParser.new(path)
-obj.app_build_settings
+ap obj.version
