@@ -42,6 +42,6 @@ module Utils
   end
 end
 
-path = '/Users/saitjr/Documents/WormholeNotes/WormholeNotes.xcodeproj'
-obj = Utils::ProjectParser.new(path)
-ap obj.version
+# path = '/Users/saitjr/Documents/WormholeNotes/WormholeNotes.xcodeproj'
+# obj = Utils::ProjectParser.new(path)
+# ap obj.version

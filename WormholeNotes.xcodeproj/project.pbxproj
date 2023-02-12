@@ -34,6 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09AA19B529991C2D002675DD /* integration_test_build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = integration_test_build.sh; sourceTree = "<group>"; };
+		09AA19B729991C2D002675DD /* install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = install.rb; sourceTree = "<group>"; };
+		09AA19B829991C2D002675DD /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		09AA19B929991C2D002675DD /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		09AA19BB29991C2D002675DD /* ci_pre_xcodebuild.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ci_pre_xcodebuild.rb; sourceTree = "<group>"; };
+		09AA19BC29991C2D002675DD /* ci_post_xcodebuild.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ci_post_xcodebuild.rb; sourceTree = "<group>"; };
+		09AA19BD29991C2D002675DD /* ci_post_clone.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ci_post_clone.rb; sourceTree = "<group>"; };
+		09AA19BF29991C2D002675DD /* push_tag.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = push_tag.rb; sourceTree = "<group>"; };
+		09AA19C129991C2D002675DD /* project_parser.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = project_parser.rb; sourceTree = "<group>"; };
 		9B4A500B2988DA0D006514F0 /* WormholeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WormholeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4A500E2988DA0D006514F0 /* WormholeNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WormholeNotesApp.swift; sourceTree = "<group>"; };
 		9B4A50102988DA0D006514F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +85,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AA19B329991C2D002675DD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				09AA19B429991C2D002675DD /* mocks */,
+				09AA19B629991C2D002675DD /* prepare */,
+				09AA19BA29991C2D002675DD /* hooks */,
+				09AA19BE29991C2D002675DD /* actions */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		09AA19B429991C2D002675DD /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				09AA19B529991C2D002675DD /* integration_test_build.sh */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
+		09AA19B629991C2D002675DD /* prepare */ = {
+			isa = PBXGroup;
+			children = (
+				09AA19B729991C2D002675DD /* install.rb */,
+				09AA19B829991C2D002675DD /* install.sh */,
+				09AA19B929991C2D002675DD /* Gemfile */,
+			);
+			path = prepare;
+			sourceTree = "<group>";
+		};
+		09AA19BA29991C2D002675DD /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				09AA19BB29991C2D002675DD /* ci_pre_xcodebuild.rb */,
+				09AA19BC29991C2D002675DD /* ci_post_xcodebuild.rb */,
+				09AA19BD29991C2D002675DD /* ci_post_clone.rb */,
+			);
+			path = hooks;
+			sourceTree = "<group>";
+		};
+		09AA19BE29991C2D002675DD /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				09AA19BF29991C2D002675DD /* push_tag.rb */,
+				09AA19C029991C2D002675DD /* utils */,
+			);
+			path = actions;
+			sourceTree = "<group>";
+		};
+		09AA19C029991C2D002675DD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				09AA19C129991C2D002675DD /* project_parser.rb */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		9B4A50022988DA0D006514F0 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +203,7 @@
 		9B4A503B298A0881006514F0 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
+				09AA19B329991C2D002675DD /* src */,
 				9B4A503C298A08B7006514F0 /* ci_post_clone.sh */,
 				9B4A503D298A08DD006514F0 /* ci_pre_xcodebuild.sh */,
 				9B4A503E298A08EE006514F0 /* ci_post_xcodebuild.sh */,

@@ -7,3 +7,5 @@
 #  
 
 echo "run ci_post_xcodebuild.sh"
+
+ruby ./src/hooks/ci_post_xcodebuild.rb

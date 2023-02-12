@@ -12,6 +12,8 @@ pwd
 
 ruby -v
 
+exit
+
 echo $CI_START_CONDITION
 
 if [[ "$CI_START_CONDITION" != "manual" ]];
